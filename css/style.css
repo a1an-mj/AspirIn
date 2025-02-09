@@ -4,7 +4,7 @@
   --base-color: white;
   --base-variant: #e8e9ed;
   --text-color: #000000;
-  --secondary-text: #232738;
+  --secondary-text: rgba(217, 217, 217);
   --primary-color: #3a435d;
   --accent-color: #0071ff;
 }
@@ -12,7 +12,7 @@
   --bgm-color:rgba(0, 0, 0, 0.70);
   --base-color: #000000;
   --base-variant: #000000;
-  --text-color: #ffffff;
+  --text-color: #c2c2c2;
   --secondary-text: rgba(39, 39, 39, 0.78);
   --primary-color: #3a435d;
   --accent-color: #0071ff;
@@ -132,7 +132,6 @@ nav h1{
 
 }
 
-/* Update your existing menu-phn styles */
 .menu-phn {
   position: absolute;
   top: 0px;
@@ -141,13 +140,29 @@ nav h1{
   z-index: 1001;
   cursor: pointer;
 }
-
 .welcome-text{
+  margin-top: 275px;
   font-family: "Anton", serif;
+  position: relative;
+}
+.welcome-text h3{
+  font-size: 20px;
+  position: absolute;
+  left: 97px;
+  top: 24px;
+  z-index: 2;
+  letter-spacing: 1px;
+}
+.welcome-text h1{
   font-size: 130px;
   text-align: center;
-  margin-top: 275px;
   color: var(--secondary-text);
+  background-color: rgb(255, 255, 255);
+  background-clip: text;
+  -webkit-background-clip: text;
+  position: relative;
+  z-index: 1;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.3); 
 }
 
 
