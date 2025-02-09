@@ -140,12 +140,13 @@ nav h1{
   z-index: 1001;
   cursor: pointer;
 }
-.welcome-text{
+.welcome-head{
   margin-top: 275px;
   font-family: "Anton", serif;
   position: relative;
+  margin-bottom: 381px;
 }
-.welcome-text h3{
+.welcome-head h3{
   font-size: 20px;
   position: absolute;
   left: 97px;
@@ -153,7 +154,7 @@ nav h1{
   z-index: 2;
   letter-spacing: 1px;
 }
-.welcome-text h1{
+.welcome-head h1{
   font-size: 130px;
   text-align: center;
   color: var(--secondary-text);
@@ -164,6 +165,11 @@ nav h1{
   z-index: 1;
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.3); 
 }
-
+.welcome-tail{
+  padding: 0px 16px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+}
 
 /* tablet */
