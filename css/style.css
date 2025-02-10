@@ -5,6 +5,7 @@
   --base-variant: #e8e9ed;
   --text-color: #000000;
   --secondary-text: rgba(217, 217, 217);
+  --third-text:rgba(163, 161, 161, 1);
   --primary-color: #3a435d;
   --accent-color: #0071ff;
 }
@@ -12,8 +13,9 @@
   --bgm-color:rgba(0, 0, 0, 0.70);
   --base-color: #000000;
   --base-variant: #000000;
-  --text-color: #c2c2c2;
+  --text-color: #d4d4d4;
   --secondary-text: rgba(39, 39, 39, 0.78);
+  --third-text:rgba(163, 161, 161, 1);
   --primary-color: #3a435d;
   --accent-color: #0071ff;
 }
@@ -30,7 +32,7 @@ body{
   color: var(--text-color);
 }
 p{
-  color: var(--secondary-text);
+  color: var(--text-color);
 }
 
 #theme-switch{
@@ -140,6 +142,8 @@ nav h1{
   z-index: 1001;
   cursor: pointer;
 }
+
+/*welcome*/
 .welcome-head{
   margin-top: 275px;
   font-family: "Anton", serif;
@@ -165,14 +169,116 @@ nav h1{
   z-index: 1;
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.3); 
 }
-.about-phn{
-  padding: 0px 16px;
+/*about */
+.about{
   text-align: center;
+  padding: 0 16px;
+}
+.about .text-phn{
   font-size: 18px;
   font-weight: 300;
+  padding-bottom: 13px;
 }
 .text-bolder{
   font-weight:800;
 }
+.about a{
+  font-size: 16px;
+  color: var(--third-text);
+}
+
+/*about------*/
+
+/*Most Read Stories*/
+
+.mid-content{
+  margin-top: 270px;
+  text-align: center;
+  margin-bottom: 277px;
+}
+
+h3{
+  font-size: 18px;
+  font-weight: 200;
+  padding-bottom: 15px;
+}
+
+h2{
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  padding-bottom: 21px;
+}
+
+.main-container{
+  display: flex;
+  padding: 6%;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  width: 100%;
+  align-items: center;
+  gap: 7%;
+}
+
+/*3box*/
+.box-holder {
+  position: relative;
+  width: 171px;
+  height: 210px;
+  overflow: hidden;
+}
+
+.background-image {
+  width: 171px;
+  height: 168px;
+  bottom: 0px;
+  position: absolute;
+}
+
+.overlay-image {
+  position: absolute;
+  object-fit: contain;
+}
+
+.circle-overlay {
+  top: 0;
+  left: 25%;
+}
+
+.rec-overlay {
+  bottom: 0px;
+}
+.mid-content p{
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 31px;
+}
+
+/*Most Read Stories--------*/
+
+/*Learn From Their Mistakes*/
+.learn-from-their-mistakes .box-holder {
+  position: relative;
+  width: 175px;
+  height: 126px;
+  overflow: hidden;
+}
+
+.learn-from-their-mistakes .main-container{
+  gap: 13px;
+}
+
+.learn-from-their-mistakes .background-image {
+  width: 175px;
+  height: 126px;
+  bottom: 0px;
+  position: absolute;
+  padding-bottom: 8px;
+}
+.learn-from-their-mistakes p{
+  margin-top: 23px;
+  font-size: 15px;
+}
+
 
 /* tablet */
