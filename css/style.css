@@ -279,6 +279,59 @@ h2{
   margin-top: 23px;
   font-size: 15px;
 }
+/*Learn From Their Mistakes-------*/
 
-
+/*Mid two*/
+.mid-two{
+  margin: 281px 27px 257px 27px;
+}
+/*Mid two--------*/
+/*Mid three*/
+.mid-three .main-container{
+  gap: 6%;
+}
+.mid-three .box-holder{
+  width: 175px;
+  height: 246px;
+}
+.mid-three .circle-overlay{
+  left: 12%;
+}
+/*Mid three-------*/
+/*Subscribe*/
+.subscribe{
+  text-align: center;
+  justify-content: center;
+  margin-top: 283px;
+}
+button{
+  box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2), inset -6px -6px 10px 0 rgba(255, 255, 255, 0.5);
+  background-color: rgba(195, 195, 195, 1);
+  color: white;
+  opacity: 70%;
+  width: 102px;
+  height: 41px;
+  border-radius: 20.5px;
+  font-size: 13px;
+  font-weight: 300px;
+}
+.subscribe button{
+  margin-top: 18px;
+  margin-bottom: 90px;
+}
+/*Subscribe-------*/
+/*Footer*/
+footer{
+  margin: 90px 30px 10px 0px;
+}
+footer h3{
+  font-size: 15px;
+}
+footer{
+  text-align: right;
+}
+footer a{
+  font-size: 13px;
+  
+}
 /* tablet */
