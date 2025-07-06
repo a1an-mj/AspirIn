@@ -218,6 +218,7 @@ h2{
   width: 100%;
   align-items: center;
   gap: 7%;
+  justify-content: center;
 }
 
 /*3box*/
@@ -284,6 +285,8 @@ h2{
 /*Mid two*/
 .mid-two{
   margin: 281px 27px 257px 27px;
+  justify-content: center;
+  display: flex;
 }
 /*Mid two--------*/
 /*Mid three*/
@@ -334,4 +337,249 @@ footer a{
   font-size: 13px;
   
 }
-/* tablet */
+
+/* --------------------------------------------------------------------------------FAQ-------------------------------------------------------------------------------------------------- */
+
+.FAQ-content-mobile{
+  margin-top: 67px;
+  font-family: "Anton", serif;
+  position: relative;
+  margin-bottom: 48px;
+}
+
+.FAQ-content-mobile h1{
+  font-size: 36px;
+  text-align: center;
+  color: var(--secondary-text);
+  background-color: rgb(255, 255, 255);
+  background-clip: text;
+  -webkit-background-clip: text;
+  position: relative;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.3); 
+}
+
+ .list-text-phone {
+  font-size: 18px;
+  font-weight: 300;
+  padding: 0 20px;
+  color: var(--text-color);
+}
+
+.list-text-phone ol,ul {
+  list-style-position: inside;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.list-text-phone li {
+  margin-bottom: 5px;
+  line-height: 1.5;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+ol ol {
+  list-style-type: lower-alpha;
+}
+
+.text-color{
+  color: #FC5656;
+}
+
+
+/* ===== TABLET RESPONSIVE STYLES ===== */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  
+  /* Navigation */
+  nav {
+    margin: 20px 40px;
+  }
+  
+  nav h1 {
+    font-size: 18px;
+  }
+  
+  #theme-switch {
+    height: 60px;
+    width: 60px;
+    top: 25px;
+    right: 25px;
+  }
+  
+  /* Welcome Section */
+  .welcome-head {
+    margin-top: 200px;
+    margin-bottom: 300px;
+  }
+  
+  .welcome-head h3 {
+    font-size: 28px;
+    left: 247px;
+    top: 30px;
+  }
+  
+  .welcome-head h1 {
+    font-size: 180px;
+  }
+  
+  /* About Section */
+  .about {
+    padding: 0 60px;
+  }
+  
+  .about .text-phn {
+    font-size: 22px;
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+  }
+  
+  .about a {
+    font-size: 18px;
+  }
+  
+  /* Mid Content Sections */
+  .mid-content {
+    margin-top: 200px;
+    margin-bottom: 200px;
+  }
+  
+  h2 {
+    font-size: 48px;
+    line-height: 56px;
+    padding-bottom: 30px;
+  }
+  
+  h3 {
+    font-size: 22px;
+    padding-bottom: 20px;
+  }
+  
+
+
+  
+
+  
+  .mid-content p {
+    font-size: 20px;
+    margin-top: 40px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5;
+  }
+
+
+  
+
+  
+
+  
+  /* Subscribe Section */
+  .subscribe {
+    margin-top: 200px;
+  }
+  
+  .subscribe h2 {
+    font-size: 42px;
+    line-height: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .subscribe button {
+    width: 140px;
+    height: 50px;
+    font-size: 16px;
+    margin-top: 25px;
+    margin-bottom: 120px;
+  }
+  
+  /* Mobile Menu Adjustments for Tablet */
+  .menu-item {
+    font-size: 22px;
+    padding: 20px 40px;
+    width: 250px;
+  }
+  
+  .li {
+    width: 250px;
+  }
+  
+  .mobile-menu {
+    gap: 30px;
+  }
+  
+  .theme-container {
+    padding-left: 80px;
+  }
+  
+  /* Footer */
+  footer {
+    margin: 120px 60px 20px 0px;
+  }
+  
+  footer h3 {
+    font-size: 18px;
+  }
+  
+  footer a {
+    font-size: 16px;
+  }
+}
+
+/* ===== LARGER TABLET (iPad Pro) ===== */
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  
+  /* Navigation */
+  nav {
+    margin: 25px 60px;
+  }
+  
+  nav h1 {
+    font-size: 20px;
+  }
+  
+  /* Welcome Section */
+  .welcome-head {
+    margin-top: 150px;
+    margin-bottom: 250px;
+  }
+  
+  .welcome-head h3 {
+    font-size: 32px;
+    left: 180px;
+    top: 35px;
+  }
+  
+  .welcome-head h1 {
+    font-size: 220px;
+  }
+  
+  /* About Section */
+  .about {
+    padding: 0 80px;
+  }
+  
+  .about .text-phn {
+    font-size: 24px;
+    max-width: 700px;
+  }
+
+  /* Typography */
+  h2 {
+    font-size: 54px;
+    line-height: 64px;
+  }
+  
+  h3 {
+    font-size: 24px;
+  }
+  
+  .mid-content p {
+    font-size: 22px;
+    max-width: 600px;
+  }
+}
