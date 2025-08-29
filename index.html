@@ -16,7 +16,7 @@
 
 </head>
 <body>
-    <nav>
+    <nav class="phn">
         <h1>AspirIn</h1>
         <div class="menu-phn">
             <svg width="19" height="12" viewBox="0 0 19 12" xmlns="http://www.w3.org/2000/svg">
@@ -25,7 +25,32 @@
                 <path d="M0 10.6001C0 10.0478 0.447715 9.6001 1 9.6001H18C18.5523 9.6001 19 10.0478 19 10.6001V11.0001C19 11.5524 18.5523 12.0001 18 12.0001H1C0.447715 12.0001 0 11.5524 0 11.0001V10.6001Z" />
                 </svg>
         </div>
+
     </nav>
+
+    <nav style="justify-content:space-between; align-items:center; padding:10px 20px; padding-bottom: 0px;" class="menu-desk">
+  
+  <div style="font-size:16px; color:gray;">AspirIn</div>
+  
+  <div style="display:flex; align-items:center; gap:20px;">
+    <a href="#" style="text-decoration:none; font-size:14px;">Stories</a>
+    <a href="#" style="text-decoration:none; font-size:14px;">About</a>
+    <a href="#" style="text-decoration:none; font-size:14px;">Contact</a>
+    <a href="#" style="text-decoration:none; font-size:14px;">FAQ</a>
+
+    <label style="position:relative; display:inline-block; width:36px; height:20px;">
+      <input type="checkbox" style="opacity:0; width:0; height:0;" id="theme-switch2"
+             onclick="this.nextElementSibling.style.backgroundColor = this.checked ? '#666' : '#ccc'; 
+                      this.nextElementSibling.innerHTML = this.checked ? '☀️' : '🌙';">
+      <span style="position:absolute; cursor:pointer; top:0; left:0; right:0; bottom:0; background-color:#ccc; border-radius:20px; transition:0.3s; display:flex; align-items:center; justify-content:center; font-size:12px;">🌙</span>
+    </label>
+  </div>
+
+</div>
+
+    </nav>
+
+
     <div class="mobile-menu">
         <a href="#" class="menu-item li">Stories</a>
         <a href="#" class="menu-item li">Contact</a>
@@ -46,12 +71,12 @@
         </h1>
     </div>
     <div class="about">
-        <p class="text-phn"><span class="text-bolder">AspirIn:</span><br> Your journey to entrepreneurship starts<br>here. Discover inspiring stories of Indian<br>entrepreneurship, whether it’s tales of success or lessons from failure, we aim to<br>inspire and guide aspiring entrepreneurs<br>like you to <span class="text-bolder">take that bold first step</span>. Join<br>us in exploring the journeys of those who<br>dared to dream and turn their ideas into<br>reality.</p>
+        <p class="text-phn"><span class="text-bolder">AspirIn:</span><span class="br-mobile"><br></span> Your journey to entrepreneurship starts<span class="br-mobile"><br></span> here. Discover inspiring stories of<span class="br-desk"><br></span> Indian<span class="br-mobile"><br></span> entrepreneurship, whether it’s tales of success or lessons from failure, we<span class="br-desk"><br></span> aim to<span class="br-mobile"><br></span> inspire and guide aspiring entrepreneurs<span class="br-mobile"><br></span> like you to <span class="text-bolder"> take that bold first step</span>.<span class="br-desk"><br></span> Join<span class="br-mobile"><br></span> us in exploring the journeys of those who<span class="br-mobile"><br></span>dared to dream<span class="br-desk"><br></span> and turn their ideas into<span class="br-mobile"><br></span> reality.</p>
         <a href="">Read more -></a>
     </div>
     <div class="most-read-stories mid-content">
         <h3>Entrepreneurs</h3>
-        <h2>Most Read<br>Stories</h2>
+        <h2>Most Read<span class="br-mobile"><br></span>Stories</h2>
         <div class="main-container">
             <div class="box-holder">
                 <img src="res/comp/box/Rectangle 41.png" class="background-image" alt="Background">
@@ -64,11 +89,11 @@
                 <img src="res/comp/box/Rectangle 42.png" class="overlay-image rec-overlay" alt="Overlay 2">
             </div>
         </div>
-        <p>The untold secrets behind these<br>entrepreneurial Success Stories. What did<br>they do differently?</p>
+        <p>The untold secrets behind these<span class="br-mobile"><br></span>entrepreneurial Success Stories. What did<span class="br-mobile"><br></span>they do differently?</p>
     </div>
     <div class="learn-from-their-mistakes mid-content">
         <h3>Popular</h3>
-        <h2>Learn From<br>Their Mistakes</h2>
+        <h2>Learn From<span class="br-mobile"><br></span>Their Mistakes</h2>
         <div class="main-container r1">
             <div class="box-holder c1">
                 <img src="res/comp/box/Rectangle 3.png" class="background-image" alt="Background">
@@ -85,7 +110,7 @@
                 <img src="res/comp/box/Rectangle 3.png" class="background-image" alt="Background">
             </div>
         </div>
-        <p>Check out the latest entepreneural stories of this<br>week blah blah blah check out and find</p>
+        <p>Check out the latest entepreneural stories of this<span class="br-mobile"><br></span>week blah blah blah check out and find</p>
     </div>
     <div class="mid-two">
         <img src="res/comp/box/Rectangle 47.png" alt="">
@@ -103,7 +128,7 @@
         </div>
     </div>
     <div class="subscribe">
-        <h2>Take the first step on<br>your entrepreneurial<br>journey today.</h2>
+        <h2>Take the first step on<span class="br-mobile"><br></span>your entrepreneurial<span class="br-mobile"><br></span>journey today.</h2>
         <button>Subscribe</button>
     </div>
     <footer class="bg-black text-gray-500 py-12 px-6">

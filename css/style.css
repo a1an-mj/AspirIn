@@ -73,6 +73,9 @@ nav h1{
   font-size: 14px;
 }
 
+.menu-desk{
+  display: none;
+}
 
 .menu-phn svg {
   fill: var(--text-color);
@@ -170,6 +173,10 @@ nav h1{
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.3); 
 }
 /*about */
+
+.br-desk{
+  display: none;
+}
 .about{
   text-align: center;
   padding: 0 16px;
@@ -582,4 +589,46 @@ ol ol {
     font-size: 22px;
     max-width: 600px;
   }
+}
+
+@media screen and (min-width: 1200px) {
+  .menu-phn{
+    display: none !important;
+  }
+  .phn{
+    display: none !important;
+  }
+  .menu-desk{
+    display: flex;
+  }
+
+  /*------welcome------*/
+  .welcome-head{
+    margin-top: 0px;
+    margin-bottom: 240px;
+  }
+  .welcome-head h3{
+    left: 214px;
+    top: 100px;
+  }
+
+  .welcome-head h1{
+    font-size: 500px;
+    margin-top: 40px;
+  }
+
+  /*about*/
+  .br-mobile{
+    display: none;
+  }
+
+  .br-desk{
+    display: inline;
+  }
+
+  .about .text-phn{
+    font-size: 20px;
+  }
+
+
 }
