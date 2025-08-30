@@ -196,6 +196,11 @@ nav h1{
 
 /*about------*/
 
+
+.desk{
+  display: none;
+}
+
 /*Most Read Stories*/
 
 .mid-content{
@@ -630,5 +635,58 @@ ol ol {
     font-size: 20px;
   }
 
+  .mob{
+    display: none;
+  }
+  h3{
+    font-size: 32px;
+  }
+  h2{
+    font-size: 80px;
+    line-height: 97px;
+  }
+  p{
+    font-size: 20px;
+  }
 
+  .desk{
+    display: block;
+    margin: 66px;
+
+  }
+  .left{
+    margin-left: 47px;
+  }
+
+  .most-read-stories-d{
+    margin-top: 396px;
+  }
+  .box-holder {
+  width: 305px;
+  height: 402px;
+  }
+
+  .background-image {
+  width: 305px;
+  height: 278px;
+  }
+  .circle-overlay {
+  top: 30px;
+  
+  width: 146px;
+  height: 147px;
+}
+
+.rec-overlay {
+  width: 305px;
+  height: 163px;
+}
+.learn-from-their-mistakes .background-image {
+  width: 305px;
+  height: 225px;
+}
+.learn-from-their-mistakes .box-holder {
+  width: 305px;
+  height: 225px;
+}
 }
