@@ -681,6 +681,10 @@ ol ol {
   width: 305px;
   height: 163px;
 }
+
+.learn-from-their-mistakes{
+  margin-top: 396px;
+}
 .learn-from-their-mistakes .background-image {
   width: 305px;
   height: 225px;
@@ -689,4 +693,42 @@ ol ol {
   width: 305px;
   height: 225px;
 }
+.learn-from-their-mistakes p{
+  font-size: 20px;
+}
+.right-text{
+  text-align: right;
+  margin-right: 70px;
+  padding-right: 50px;
+}
+
+.mid-d{
+  width: 1300px;
+  height: 163px;
+  background-color: rgba(195, 195, 195, 1);
+  border-radius: 50px;
+  margin-top: 387px;
+}
+.mid2-d{
+  margin-top: 387px;
+}
+.mid2-d .box-holder{
+  height: 500px;
+}
+.mid2-d .main-container {
+    width: 100%;
+    gap: 1%;
+    height: 500px;
+}
+.mid2-d .background-image{
+    width: 310px;
+    height: 393px;
+}
+.mid2-d .circle-overlay{
+  top:0px;
+  width: 230px;
+  height: 230px;
+  left: 38px;
+}
+
 }
